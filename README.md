@@ -50,3 +50,10 @@ If you would like to have a look at the project on your computer, click the gree
 ## Usage
 
 This intuative online store is easy to navigate. A navbar sits at the very top of the page and contains links within the page name buttons to navigate you across the site. See points above regarding what to expect on each page. View the screenshots below for a quick tour of the site.
+
+![Home Page](https://user-images.githubusercontent.com/60799980/107054676-59a46c00-67c8-11eb-9f9d-353c02195e7a.png)
+![About Us](https://user-images.githubusercontent.com/60799980/107054715-645f0100-67c8-11eb-8f73-29e8859c6658.png)
+![Meet The Team](https://user-images.githubusercontent.com/60799980/107054729-67f28800-67c8-11eb-8b1c-3ca376d06c8e.png)
+![Catalogue](https://user-images.githubusercontent.com/60799980/107054741-6cb73c00-67c8-11eb-8b69-c7db8a9941e9.png)
+![Product Spec Page](https://user-images.githubusercontent.com/60799980/107054763-704ac300-67c8-11eb-981d-028f56dd33b9.png)
+![Cart](https://user-images.githubusercontent.com/60799980/107054777-7476e080-67c8-11eb-83b1-4e24b5a1a5e2.png)
