@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deelz Shopping Cart</title>
+    <!-- link for favicon for the web title -->
+    <link rel="icon" type="icon" href="images/favicon.ico">
+    <!-- bootstrap and css file links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery themes and jQueryUI CDN -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a><img class="navbar-brand" href="#" src="images/logo.png" alt="logo.png"></img></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="about_us.html">About Us<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="meet_the_team.html">Meet The Team<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="catalogue.html">Catalogue<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="cart.html"><ion-icon name="cart-outline"></ion-icon>Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="pageHeader">Deelz Tech Store</h1>
+
+    <h1>Shopping Cart</h1>
+    <br>
+    <!-- note: discount and delivery not functional at present -->
+    <div class="discountCoupon">
+        <h5>Do you have one of our 5 or 10 percent discount coupons? If so, select below 👇</h5>
+        <select name="discount" id=discount>
+            <option value="select">select</option>
+            <option value="5%">5%</option>
+            <option value="10%">10%</option>
+        </select>
+    </div>
+    <br>
+    <div class="deliveryOption">
+        <h5 class="deliverySection">Nationwide delivery is R50, otherwise collect from our store for free. Choose below 👇</h5>
+        <select name="delivery" id="delivery">
+            <option value="collect">Collect</option>
+            <option value="delivery">Delivery</option>
+        </select>
+    </div>
+    <br>
+    <div class="deliveryInfo">
+        <h5 class="formHead">If you chose delivery, where should we send your order? 🙂</h5>
+        <form class="form-group" action="">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Address line 1">
+            <input type="text" placeholder="Address Line 2">
+            <input type="text" placeholder="Address Line 3">
+            <input type="text" placeholder="Postal Code">
+            <input type="text" placeholder="Contact Number">
+            <input type="submit">
+        </form>
+    </div>
+    <br>
+    <div class="products-container">
+        <!-- data populated using javascript -->
+        <h5 id="cartItems">Items in cart</h5>
+        <p>Cart items displayed as product name / item price / quantity / product total after quantity/ sub-total / vat / cart total.</p>
+        <div class="products">
+            
+        </div>
+
+    </div>
+    <button id="confirm-order">Confirm Order</button>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

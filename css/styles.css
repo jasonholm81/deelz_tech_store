@@ -1,0 +1,252 @@
+body {
+    min-height: 100%;
+    text-align: center;
+    animation: colorchange 120s linear 1s infinite;
+    /* animation-name followed by duration in seconds*/
+    /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 120s linear 0s infinite alternate;
+    /* Chrome and Safari */
+}
+
+@keyframes colorchange {
+    0% {
+        background: #fcd541;
+    }
+
+    33% {
+        background: #fcc83e;
+    }
+
+    66% {
+        background: #fcbb30;
+    }
+
+    100% {
+        background: #f6ae04;
+    }
+}
+
+/* Safari and Chrome - necessary duplicate */
+@-webkit-keyframes colorchange {
+    0% {
+        background: #fcd541;
+    }
+
+    33% {
+        background: #fcc83e;
+    }
+
+    66% {
+        background: #fcbb30;
+    }
+
+    100% {
+        background: #f6ae04;
+    }
+}
+
+section {
+    width: 33vw;
+    margin: 0 auto;
+}
+
+/* css styled elements below to cover font styles, colors, padding and more */
+
+html {
+    height: 100%;
+}
+
+h1 {
+    color: #191970;
+    font-style: oblique;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #000080;
+}
+
+h3 {
+    color: #000080;
+    padding-top: 8px;
+}
+
+h4 {
+    color: #000080;
+    font-style: inherit;
+}
+
+hr {
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #000080;
+    width: 5%;
+}
+
+p {
+    color: #4169e1;
+    font-style: initial;
+    padding-top: 10px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px 5px 5px 5px;
+}
+
+img {
+    border-radius: 25px;
+    border: 1px solid #fca652;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+#contact {
+    border-collapse: collapse;
+    border-color: #4169e1;
+    border-style: solid;
+    border-width: 1px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30;
+}
+
+#contact th {
+    color: #000080;
+    background-color: #4169e1;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+#contact td {
+    border-style: solid;
+    border-color: #000080;
+    border-width: 1px;
+    color: #4169e1;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+}
+
+/* classes are called with a period before the name given to manipulate */
+
+.btn-login {
+    height: 30px;
+    padding: 2px;
+}
+
+.btn-search {
+    background-color: white;
+}
+
+.homepagelogo {
+    height: 300px;
+    width: 400px;
+}
+
+.item-pic:hover {
+    transform: scale(1.2);
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 50px;
+    max-height: 50px;
+    max-width: 50px;
+    padding: 0px;
+}
+
+.nav-link {
+    color: #fca652;
+}
+
+.tr2 {
+    color: #000080;
+}
+
+/* the magic commands to make flexbox work */
+
+.flexbox1 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.flexbox1 .col {
+    flex: 1;
+}
+
+.flexbox1 .col:nth-child(1) {
+    order: 1;
+}
+
+.flexbox1 .col:nth-child(2) {
+    order: 0;
+}
+
+.flexbox1 .col:nth-child(3) {
+    order: 2;
+}
+
+.flexbox2 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.flexbox2 .col {
+    flex: 1;
+}
+
+.flexbox2 .col:nth-child(1) {
+    order: 1;
+}
+
+.flexbox2 .col:nth-child(2) {
+    order: 0;
+}
+
+.flexbox2 .col:nth-child(3) {
+    order: 2;
+}
+
+/* item-pic id's called with the pound (or hash) sign */
+
+#item-pic1 {
+    filter: grayscale(100%);
+}
+
+#item-pic3 {
+    filter: contrast(75%);
+}
+/* trolley icon  in navbar */
+ion-icon {
+    vertical-align: center;
+}
+
+/* Cart page css */
+.form-group {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
