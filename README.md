@@ -57,3 +57,7 @@ This intuative online store is easy to navigate. A navbar sits at the very top o
 ![Catalogue](https://user-images.githubusercontent.com/60799980/107054741-6cb73c00-67c8-11eb-8b69-c7db8a9941e9.png)
 ![Product Spec Page](https://user-images.githubusercontent.com/60799980/107054763-704ac300-67c8-11eb-981d-028f56dd33b9.png)
 ![Cart](https://user-images.githubusercontent.com/60799980/107054777-7476e080-67c8-11eb-83b1-4e24b5a1a5e2.png)
+
+## Credits
+
+Thanks to excellent mentorship and code reviews by the team at HyperionDev, this project was completed successfully. 
